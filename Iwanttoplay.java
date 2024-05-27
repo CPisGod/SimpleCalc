@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Iwanttoplay {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println(" > ");
+        System.out.println("수를 입력하세요 ( 예 : 6 + 8 ) > ");
         String input = s.nextLine();
 
         String[] parts = input.split(" ");
@@ -23,16 +23,16 @@ public class Iwanttoplay {
 
         switch (b) {
             case "+":
-                System.out.println(a + " + " + c + " = " + (a+c));
+                System.out.println("결과 : " + a + " + " + c + " = " + (a+c));
                 break;
             case "-":
-                System.out.println(a + " - " + c + " = " + (a-c));
+                System.out.println("결과 : " + a + " - " + c + " = " + (a-c));
                 break;
             case "*":
-                System.out.println(a + " * " + c + " = " + (a*c));
+                System.out.println("결과 : " + a + " * " + c + " = " + (a*c));
                 break;
             case "/":
-                System.out.println(a + " / " + c + " = " + (a/c));
+                System.out.println("결과 : " + a + " / " + c + " = " + (a/c));
                 break;
 /*            case "^":
                 System.out.println(a + " ^ " + c + " = " + (a^c));
